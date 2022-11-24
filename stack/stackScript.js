@@ -18,4 +18,4 @@ addStack.addEventListener('click', () => {
 removeStack.addEventListener('click', () => {
     display.textContent = `${stack.lastElementChild.textContent} was popped off the stack`;
     stack.removeChild(stack.lastElementChild);
-})
+});
